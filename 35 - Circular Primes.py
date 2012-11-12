@@ -55,7 +55,7 @@ def circular_prime(n):
 					if circular_number not in primes:
 						circular_prime = False
 			if circular_prime:
-				answers.append(circles[n] for n in range(len(circles)))
+				answers += circles
 # 				print(int(circle) for circle in circles)
 				print "circles: ", circles, number
 				print "type(circles): ", type(circles)
