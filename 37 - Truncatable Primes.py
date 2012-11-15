@@ -1,4 +1,6 @@
-# The number 3797 has an interesting property. Being prime itself, it is possible to continuously remove digits from left to right, and remain prime at each stage: 3797, 797, 97, and 7. Similarly we can work from right to left: 3797, 379, 37, and 3.
+# The number 3797 has an interesting property. Being prime itself, it is possible 
+# to continuously remove digits from left to right, and remain prime at each 
+# stage: 3797, 797, 97, and 7. Similarly we can work from right to left: 3797, 379, 37, and 3.
 #
 # Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
 #
@@ -25,6 +27,10 @@ def prime_list(n):
     return list
 
 def truncator(n):
+	''' 
+	Takes in a number, returns a list of numbers by truncating the original from left and from right
+	e.g., truncator(547) returns [547, 54, 5, 47, 7]
+	'''
 	numbers = [n]
 	digits = map(int, str(n))
 	while len(digits) > 1:
