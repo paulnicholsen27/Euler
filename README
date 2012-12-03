@@ -1,4 +1,5 @@
-A repository containing some of my solutions to some problems from Project Euler (pronounced 'Oiler', to help others from having to be corrected as I was).
+A repository containing some of my solutions to some problems from Project Euler (pronounced 
+'Oiler', to help others from having to be corrected as I was).
 
 I'm particularly fond of my solutions to problems 18 and 67, which required a
 recursive solution to find the shortest path from the top of the triangle to the bottom.
