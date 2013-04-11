@@ -4,6 +4,9 @@ is a 4-digit pandigital and is also prime.
 
 What is the largest n-digit pandigital prime that exists?'''
 
+
+
+'''solved'''
 import itertools
 from eulertools import prime, pandigital_generator
 
